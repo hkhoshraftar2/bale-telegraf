@@ -65,7 +65,7 @@ const DEFAULT_EXTENSIONS: Record<string, string | undefined> = {
 }
 
 const DEFAULT_OPTIONS: ApiClient.Options = {
-  apiRoot: 'https://api.telegram.org',
+  apiRoot: 'https://tapi.bale.ai',
   apiMode: 'bot',
   webhookReply: true,
   agent: new https.Agent({
